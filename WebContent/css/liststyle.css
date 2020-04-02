@@ -1,0 +1,126 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  align: center;
+}
+/*------------------Buttons---------------------*/
+.btn:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+  outline: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  
+}
+
+.btn-lg {
+  font-size: 13px;
+  line-height: 1.33;
+  padding: 15px 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.btn-lg1 {
+  font-size: 13px;
+  line-height: 1.33;
+  padding: 10px 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.btn-sm {
+  font-size: 11px;
+  line-height: 1.33;
+  padding: 10px 18px;
+  font-weight: 400;
+  background-color: #ededed;
+}
+
+.btn-wide {
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.33;
+  padding: 18px 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background-color:#70cbce;
+  color: #ffffff;
+  width : 200px;
+  font-size: 15px;
+  height : 50px;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #8be2e5;
+  color: #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.btn-secondary {
+  background-color:#70cbce;
+  color: #ffffff;
+  width : 100px;
+  font-size: 12px;
+  height : 30px;
+  letter-spacing: 1px;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+  background-color: #8be2e5;
+  color: #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+
